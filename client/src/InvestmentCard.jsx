@@ -12,19 +12,19 @@ const InvestmentCard = () => {
   const [selectedPlan, setSelectedPlan] = useState(null);
   const [walletAddresses, setWalletAddresses] = useState({
     plan1: [
-      { coin: 'Bitcoin', address: "bc1q2wrnlu2hdw9r2khl7kgv79c85varuflsdgxt40" },
-      { coin: 'Ethereum', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
-      { coin: 'XRP', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
+      { coin: 'Bitcoin', address: "bc1qff6dpe3yyy29w83jcq2qdgvmvzgnjww7chgnff" },
+      // { coin: 'Ethereum', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
+      // { coin: 'XRP', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
     ],
     plan2: [
-      { coin: 'Bitcoin', address: "bc1q2wrnlu2hdw9r2khl7kgv79c85varuflsdgxt40" },
-      { coin: 'Ethereum', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
-      { coin: 'XRP', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
+      { coin: 'Bitcoin', address: "bc1qff6dpe3yyy29w83jcq2qdgvmvzgnjww7chgnff" },
+      // { coin: 'Ethereum', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
+      // { coin: 'XRP', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
     ],
     plan3: [
-      { coin: 'Bitcoin', address: "bc1q2wrnlu2hdw9r2khl7kgv79c85varuflsdgxt40" },
-      { coin: 'Ethereum', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
-      { coin: 'XRP', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
+      { coin: 'Bitcoin', address: "bc1qff6dpe3yyy29w83jcq2qdgvmvzgnjww7chgnff" },
+      // { coin: 'Ethereum', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
+      // { coin: 'XRP', address: "0x34e9B0a47904BE88ce734C070B5675f2A4578c2B" },
     ]
   });
 
