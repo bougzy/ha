@@ -8,14 +8,14 @@ mongoose.connect('mongodb+srv://coimmarket:coimmarket@coimmarket.zlifkrv.mongodb
 
 // Allow requests from specific frontend domain(s)
 const allowedOrigins = [
-  "https://coinmarketcaplimited.vercel.app", // Remove the trailing slash
-  // "https://vercel.com/patrickspecials-projects/virgo"
+  "https://coinmarketcaplimited.vercel.app"
 ];
 
 app.use(cors({
   origin: allowedOrigins,
-  credentials: true, // Allow cookies and credentials
+  credentials: true // Allow cookies and credentials
 }));
+
 
 // Define routes for user and admin operations
 app.use('/api/users', require('./routes/usersRoutes'));
