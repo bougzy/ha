@@ -8,7 +8,7 @@ mongoose.connect('mongodb+srv://coimmarket:coimmarket@coimmarket.zlifkrv.mongodb
 
 // Allow requests from specific frontend domain(s)
 const allowedOrigins = [
-  " http://localhost:5173", // Remove the trailing slash
+  "https://coinmarketcaplimited.vercel.app", // Remove the trailing slash
   // "https://vercel.com/patrickspecials-projects/virgo"
 ];
 
